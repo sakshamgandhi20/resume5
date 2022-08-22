@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1vw;
+} 
+   
+    .cont{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        position: absolute;
+        left: 22.5vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 56vw;
+         height: 140vh;
+    }
+    .border-l{
+        display: flex;
+        flex-direction: column;
+         width: 1.4vw;
+
+    }
+     .border-l .top{
+        background-color: rgb(199, 196, 193);
+       
+        height: 50vh;
+
+    }
+    .border-l .bottom{
+        background-color: white;
+        width: 1.4vw;
+        height: 90vh;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 20.1vw;
+       
+    }
+    .left .top{
+        height: 50vh;
+    }
+    .img{
+        position: relative;
+        left:1.5vw;
+        width: 19.5vw;
+        height: 48vh;
+    }
+   
+  
+    .left .bottom{
+        color: white;
+        padding-left: 1.7vw;
+        padding-top: 3vh;
+    }
+    .heading{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .linetwo{
+         background-color: white;
+         height: .3vh;
+         width: 4.7vw;
+         /* margin-top: 1vh; */
+         margin-bottom: 2vh;
+    }
+    .list{
+        /* font-size: .5rem; */
+        list-style: disc inside;
+        
+       
+      margin-bottom: 3vh;
+    }
+    .listtwo{
+        list-style: none inside; 
+       
+        margin-bottom: 3vh;
+    }
+    .listi{
+        font-size: .9rem;
+        font-weight: lighter;
+    } 
+     .right{
+        background-color: white;
+        width: 34vw;
+        /* height: 100vh; */
+        
+       
+    }
+    .right .top{
+        display: flex;
+        flex-direction: column;
+    
+        background-color: rgb(199, 196, 193);
+          height: 50vh;
+          box-sizing: border-box;
+          padding-left: 3vw;
+          padding-top: 10vh;
+    }
+    .name{
+       font-size: 3rem;
+       font-weight: bold;
+      
+    }
+    .post{
+        font-size: 2.5rem;
+        line-height: 3vh;
+        font-weight: bold;
+    }
+    .line{
+        background-color: black;
+        line-height: 1vh;
+        width: 6vw;
+        height: .3vh;
+        margin-top: 2vh;
+    }
+    .bio{
+        margin-top: 7vh;
+        text-align: justify;
+        font-size: 1rem;
+        padding-right: 2vw;
+    }
+    .right .bottom{
+        padding-top: 3vh;
+        padding-left: 3.5vw;
+    }
+    .heading2{
+        font-size: 2rem;
+        font-weight: bold;
+        
+    }
+    .line3{
+        background-color: black;
+        height: .5vh;
+        width: 28vw;
+
+    }
+    .school{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 2vh;
+    }
+    .EXPERIENCE{
+        margin-top: 3vh;
+    }
+    .border-r{
+        background-color: black;
+        /* height: 100vh; */
+        width: .5vw;
+    }
